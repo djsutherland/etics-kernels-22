@@ -1,5 +1,5 @@
 This is the practical component of the [Data Science Summer School](https://www.ds3-datascience-polytechnique.fr) 2021 session on "Kernel Methods: From Basics to Modern Applications" by [Danica Sutherland](https://djsutherland.ml).
-Slides are available [here](https://djsutherland.ml/slides/ds3-21/).
+Slides are available [here](https://djsutherland.ml/slides/ds3-21/) (or in [pdf](https://djsutherland.ml/slides/ds3-21.pdf)).
 
 These materials are (slightly) updated from [the 2019 version](https://github.com/djsutherland/ds3-kernels/) in discussion with [Bharath Sriperumbudur](http://personal.psu.edu/bks18/), which were in turn partially based on [a 2018 version](https://github.com/karlnapf/ds3_kernel_testing) by [Heiko Strathmann](http://herrstrathmann.de/) in discussion with [Arthur Gretton](http://www.gatsby.ucl.ac.uk/~gretton/).
 
