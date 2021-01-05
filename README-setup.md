@@ -28,7 +28,7 @@ Run `check_imports_and_download.py` to see if everything you need is installed (
 There are a few Python files and some data files in the repository. By far the easiest thing to do is just put them all in the same directory:
 
 ```
-git clone https://github.com/djsutherland/ds3-kernels-21
+git clone --single-branch https://github.com/djsutherland/ds3-kernels-21
 ```
 
 #### Python version
