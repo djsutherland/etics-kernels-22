@@ -9,10 +9,10 @@ import torch
 import torchvision
 import tqdm
 
-import ds3_support
+import support
 
 torchvision.datasets.MNIST(root='data', download=True)
-ds3_support.CombinedOmniglot(root='data', download=True)
+support.CombinedOmniglot(root='data', download=True)
 
 assert os.path.exists('data/transcripts.tar.bz2')
 

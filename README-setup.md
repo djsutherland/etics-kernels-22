@@ -1,7 +1,11 @@
-This is the practical component of the [Data Science Summer School](https://www.ds3-datascience-polytechnique.fr) 2021 session on "Kernel Methods: From Basics to Modern Applications" by [Danica Sutherland](https://djsutherland.ml).
-Slides are available [here](https://djsutherland.ml/slides/ds3-21/) (or in [pdf](https://djsutherland.ml/slides/ds3-21.pdf)).
+This is the interactive component of the [ETICS 2022 summer school](https://www.gdr-mascotnum.fr/etics.html) session on "Modern Kernel Methods in Machine Learning" by [Danica Sutherland](https://djsutherland.ml).
+Slides are available [here](https://djsutherland.ml/slides/etics-22/) (or in [pdf](https://djsutherland.ml/slides/etics-22.pdf)).
 
-These materials are (slightly) updated from [the 2019 version](https://github.com/djsutherland/ds3-kernels/) in discussion with [Bharath Sriperumbudur](http://personal.psu.edu/bks18/), which were in turn partially based on [a 2018 version](https://github.com/karlnapf/ds3_kernel_testing) by [Heiko Strathmann](http://herrstrathmann.de/) in discussion with [Arthur Gretton](http://www.gatsby.ucl.ac.uk/~gretton/).
+Previous versions of these materials:
+
+- [For DS3 2021](https://github.com/djsutherland/ds3-kernels-21/)
+- For [DS3 2019](https://github.com/djsutherland/ds3-kernels/), in discussion with [Bharath Sriperumbudur](http://personal.psu.edu/bks18/)
+- Testing material partially based on [a DS3 2018 version](https://github.com/karlnapf/ds3_kernel_testing) by [Heiko Strathmann](http://herrstrathmann.de/) in discussion with [Arthur Gretton](http://www.gatsby.ucl.ac.uk/~gretton/).
 
 We'll cover, in varying levels of detail, the following topics:
 
@@ -17,7 +21,7 @@ We'll cover, in varying levels of detail, the following topics:
 
 ### Colab
 
-These notebooks are available on Google Colab: [ridge](https://colab.research.google.com/github/djsutherland/ds3-kernels-21/blob/built/ridge.ipynb) or [testing](https://colab.research.google.com/github/djsutherland/ds3-kernels-21/blob/built/testing.ipynb). You don't have to set anything up yourself and it runs on cloud resources, so this is probably the easiest option. If you want to use the GPU, click Runtime -> Change runtime type -> Hardware accelerator -> GPU.
+These notebooks are available on Google Colab: [ridge](https://colab.research.google.com/github/djsutherland/etics-kernels-22/blob/built/ridge.ipynb) or [testing](https://colab.research.google.com/github/djsutherland/etics-kernels-22/blob/built/testing.ipynb). You don't have to set anything up yourself and it runs on cloud resources, so this is probably the easiest option. If you want to use the GPU, click Runtime -> Change runtime type -> Hardware accelerator -> GPU.
 
 ### Local setup
 
@@ -28,7 +32,7 @@ Run `check_imports_and_download.py` to see if everything you need is installed (
 There are a few Python files and some data files in the repository. By far the easiest thing to do is just put them all in the same directory:
 
 ```
-git clone --single-branch https://github.com/djsutherland/ds3-kernels-21
+git clone --single-branch https://github.com/djsutherland/etics-kernels-22
 ```
 
 #### Python version
@@ -44,12 +48,12 @@ If you don't already have a setup you're happy with, we recommend the `conda` pa
 
 ```bash
 # replace cpuonly with an appropriate cudatoolkit version if you want GPU support
-conda create --name ds3-kernels --override-channels -c pytorch -c defaults --strict-channel-priority python=3 notebook ipywidgets numpy scipy scikit-learn matplotlib seaborn tqdm pytorch torchvision cpuonly
+conda create --name etics-kernels --override-channels -c pytorch -c defaults --strict-channel-priority python=3 notebook ipywidgets numpy scipy scikit-learn matplotlib seaborn tqdm pytorch torchvision cpuonly
 
-conda activate ds3-kernels
+conda activate etics-kernels
 
-git clone https://github.com/djsutherland/ds3-kernels-21
-cd ds3-kernels-21
+git clone https://github.com/djsutherland/etics-kernels-22
+cd etics-kernels-22
 python check_imports_and_download.py
 jupyter notebook
 ```
