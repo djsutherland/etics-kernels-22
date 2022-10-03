@@ -1,5 +1,5 @@
 This is the interactive component of the [ETICS 2022 summer school](https://www.gdr-mascotnum.fr/etics.html) session on "Modern Kernel Methods in Machine Learning" by [Danica Sutherland](https://djsutherland.ml).
-Slides are available [here](https://djsutherland.ml/slides/etics-22/) (or in [pdf](https://djsutherland.ml/slides/etics-22.pdf)).
+Part I slides are available [here](https://djsutherland.ml/slides/etics-22/) (or in [pdf](https://djsutherland.ml/slides/etics-22.pdf)); part II will be posted tonight.
 
 Previous versions of these materials:
 
